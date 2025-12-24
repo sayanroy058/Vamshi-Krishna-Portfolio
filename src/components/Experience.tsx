@@ -3,16 +3,30 @@ import { Calendar, MapPin, ChevronRight } from 'lucide-react';
 const experiences = [
   {
     id: 1,
-    title: 'Cook 2 - Culinary Banquets',
+    title: 'Lead Cook - Culinary Banquets',
     company: 'The Ritz-Carlton',
     location: 'Charlotte, North Carolina',
-    period: 'Jun 2024 - Present',
+    period: 'March 2025 - Present',
     current: true,
     highlights: [
       'Manage the banquet culinary department with full leadership responsibilities',
       'Handle ordering, prep lists, BEO meetings, and event execution',
       'Achieved 100% Event Satisfaction Score for 2024',
       'Awarded Five Star of the Quarter Q1 2025',
+    ],
+  },
+  {
+    id: 4,
+    title: 'Cook 2',
+    company: 'The Ritz-Carlton',
+    location: 'Charlotte, North Carolina',
+    period: 'Aug 2024 - Mar 2025',
+    current: false,
+    highlights: [
+      'Prepared high-volume banquet dishes and plated for events',
+      'Assisted lead cook with station prep, execution, and quality checks',
+      'Maintained strict food safety and sanitation standards',
+      'Supported menu prep during peak seasonal events',
     ],
   },
   {
