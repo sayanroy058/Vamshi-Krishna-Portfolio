@@ -94,7 +94,7 @@ const Hero = () => {
                 <img
                   src={profilePhoto}
                   alt="Vamsi Krishna Karnam - Lead Cook at The Ritz-Carlton"
-                  className="w-full h-full object-cover object-top scale-110"
+                  className="w-full h-full object-cover object-top scale-80"
                   loading="eager"
                 />
               </div>
