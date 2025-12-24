@@ -3,7 +3,7 @@ import { Calendar, MapPin, ChevronRight } from 'lucide-react';
 const experiences = [
   {
     id: 1,
-    title: 'Lead Cook - Culinary Banquets',
+    title: 'Cook 2 - Culinary Banquets',
     company: 'The Ritz-Carlton',
     location: 'Charlotte, North Carolina',
     period: 'Jun 2024 - Present',
