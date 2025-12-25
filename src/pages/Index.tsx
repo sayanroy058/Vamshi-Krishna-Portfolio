@@ -6,7 +6,6 @@ import Education from "@/components/Education";
 import Awards from "@/components/Awards";
 import AwardsGallery from "@/components/AwardsGallery";
 import ChocolateWorks from "@/components/ChocolateWorks";
-import WeddingCakes from "@/components/WeddingCakes";
 import RoomAmenities from "@/components/RoomAmenities";
 import PlatedDesserts from "@/components/PlatedDesserts";
 import BarCocoa from "@/components/BarCocoa";
@@ -20,7 +19,6 @@ const Index = () => {
       <Experience />
       <Skills />
       <ChocolateWorks />
-      <WeddingCakes />
       <RoomAmenities />
       <PlatedDesserts />
       <BarCocoa />

@@ -3,25 +3,32 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { useIsMobile } from "@/hooks/use-mobile";
 
 const barCocoaImages = [
-  { src: "/Bar Cocoa – Coffee Shop Operations/WhatsApp Image 2025-11-10 at 6.33.15 PM.jpeg", alt: "Bar Cocoa operations 1" },
-  { src: "/Bar Cocoa – Coffee Shop Operations/WhatsApp Image 2025-11-10 at 6.33.16 PM (1).jpeg", alt: "Bar Cocoa operations 2" },
-  { src: "/Bar Cocoa – Coffee Shop Operations/WhatsApp Image 2025-11-10 at 6.33.16 PM.jpeg", alt: "Bar Cocoa operations 3" },
-  { src: "/Bar Cocoa – Coffee Shop Operations/WhatsApp Image 2025-11-10 at 6.33.17 PM (1).jpeg", alt: "Bar Cocoa operations 4" },
-  { src: "/Bar Cocoa – Coffee Shop Operations/WhatsApp Image 2025-11-10 at 6.33.17 PM (2).jpeg", alt: "Bar Cocoa operations 5" },
-  { src: "/Bar Cocoa – Coffee Shop Operations/WhatsApp Image 2025-11-10 at 6.33.17 PM.jpeg", alt: "Bar Cocoa operations 6" },
+  { src: "/Playes entrees/WhatsApp Image 2025-12-25 at 6.49.36 PM (1).jpeg", alt: "Plated entree 1" },
+  { src: "/Playes entrees/WhatsApp Image 2025-12-25 at 6.49.36 PM.jpeg", alt: "Plated entree 2" },
+  { src: "/Playes entrees/WhatsApp Image 2025-12-25 at 6.49.37 PM (1).jpeg", alt: "Plated entree 3" },
+  { src: "/Playes entrees/WhatsApp Image 2025-12-25 at 6.49.37 PM (2).jpeg", alt: "Plated entree 4" },
+  { src: "/Playes entrees/WhatsApp Image 2025-12-25 at 6.49.37 PM.jpeg", alt: "Plated entree 5" },
+  { src: "/Playes entrees/WhatsApp Image 2025-12-25 at 6.49.38 PM (1).jpeg", alt: "Plated entree 6" },
+  { src: "/Playes entrees/WhatsApp Image 2025-12-25 at 6.49.38 PM (2).jpeg", alt: "Plated entree 7" },
+  { src: "/Playes entrees/WhatsApp Image 2025-12-25 at 6.49.38 PM.jpeg", alt: "Plated entree 8" },
+  { src: "/Playes entrees/WhatsApp Image 2025-12-25 at 6.49.39 PM (1).jpeg", alt: "Plated entree 9" },
+  { src: "/Playes entrees/WhatsApp Image 2025-12-25 at 6.49.39 PM (2).jpeg", alt: "Plated entree 10" },
+  { src: "/Plated salads/WhatsApp Image 2025-12-25 at 6.49.35 PM (1).jpeg", alt: "Banquet presentation 1" },
+  { src: "/Plated salads/WhatsApp Image 2025-12-25 at 6.49.35 PM (2).jpeg", alt: "Banquet presentation 2" },
+  { src: "/Plated salads/WhatsApp Image 2025-12-25 at 6.49.35 PM.jpeg", alt: "Banquet presentation 3" },
 ];
 
 const BarCocoa = () => {
   const isMobile = useIsMobile();
 
   return (
-    <section className="py-12 sm:py-16 md:py-20 px-4 bg-accent/5" id="bar-cocoa">
+    <section className="py-12 sm:py-16 md:py-20 px-4 bg-accent/5" id="plated-entrees">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-3 sm:mb-4 text-foreground">
-          Bar Cocoa – Coffee Shop Operations
+          Playes Entrées
         </h2>
         <p className="text-center text-muted-foreground mb-8 sm:mb-10 md:mb-12 max-w-2xl mx-auto text-sm sm:text-base px-2">
-          Professional coffee shop management and barista expertise
+          Beautifully crafted main course presentations for banquet events
         </p>
 
         {isMobile ? (

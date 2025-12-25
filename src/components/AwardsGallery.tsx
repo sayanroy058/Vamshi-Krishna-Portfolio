@@ -29,12 +29,12 @@ const AwardsGallery = () => {
               {awardImages.map((image, index) => (
                 <CarouselItem key={index}>
                   <Card className="shadow-elegant overflow-hidden border-none">
-                    <CardContent className="p-0">
-                      <div className="aspect-[3/4] overflow-hidden">
+                    <CardContent className="p-4">
+                      <div className="w-full flex items-center justify-center bg-muted/20 rounded-lg overflow-hidden">
                         <img 
                           src={image.src} 
                           alt={image.alt}
-                          className="w-full h-full object-cover"
+                          className="w-full h-auto object-contain max-h-[500px]"
                         />
                       </div>
                     </CardContent>
@@ -46,18 +46,18 @@ const AwardsGallery = () => {
             <CarouselNext className="right-2" />
           </Carousel>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-5xl mx-auto">
             {awardImages.map((image, index) => (
               <Card 
                 key={index} 
                 className="shadow-elegant hover:shadow-glow transition-smooth overflow-hidden border-none"
               >
-                <CardContent className="p-0">
-                  <div className="aspect-[3/4] overflow-hidden">
+                <CardContent className="p-4">
+                  <div className="w-full flex items-center justify-center bg-muted/20 rounded-lg overflow-hidden">
                     <img 
                       src={image.src} 
                       alt={image.alt}
-                      className="w-full h-full object-cover hover:scale-105 transition-smooth"
+                      className="w-full h-auto object-contain max-h-[500px] hover:scale-105 transition-smooth"
                     />
                   </div>
                 </CardContent>

@@ -101,9 +101,12 @@ const Contact = () => {
                       variant="outline"
                       className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth text-sm sm:text-base"
                       size="lg"
+                      asChild
                     >
-                      <Download className="w-3 h-3 sm:w-4 sm:h-4 mr-2" />
-                      Download Resume
+                      <a href="/resume.pdf" download aria-label="Download resume">
+                        <Download className="w-3 h-3 sm:w-4 sm:h-4 mr-2" />
+                        Download Resume
+                      </a>
                     </Button>
                   </div>
                 </div>
@@ -115,7 +118,7 @@ const Contact = () => {
         {/* Footer */}
         <div className="mt-8 sm:mt-10 md:mt-12 text-center text-muted-foreground px-4">
           <p className="text-xs sm:text-sm">
-            © {new Date().getFullYear()} Mallikarjuna Esunathi. All rights reserved.
+            © {new Date().getFullYear()} Vamsi Krishna Karnam. All rights reserved.
           </p>
         </div>
       </div>
