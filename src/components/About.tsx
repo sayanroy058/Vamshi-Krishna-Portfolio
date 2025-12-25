@@ -1,80 +1,89 @@
-import ritzAnnouncement from '@/assets/ritz-carlton-announcement.jpeg';
+import { Card, CardContent } from "@/components/ui/card";
+import { Award, Target } from "lucide-react";
 
 const About = () => {
   return (
-    <section id="about" className="py-16 md:py-24 bg-background">
-      <div className="container mx-auto px-4 sm:px-6">
-        <div className="max-w-6xl mx-auto">
-          {/* Section Header */}
-          <div className="text-center mb-10 md:mb-16">
-            <span className="inline-block font-body text-sm font-medium text-accent uppercase tracking-widest mb-4">
-              About Me
-            </span>
-            <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-foreground mb-4 md:mb-6">
-              A Journey of Culinary Excellence
-            </h2>
-            <div className="w-24 h-1 bg-accent mx-auto rounded-full" />
-          </div>
+    <section className="py-12 sm:py-16 md:py-20 px-4 bg-background" id="about">
+      <div className="container mx-auto max-w-6xl">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-3 sm:mb-4 text-foreground">
+          About Me
+        </h2>
+        <p className="text-center text-muted-foreground mb-8 sm:mb-10 md:mb-12 max-w-2xl mx-auto text-sm sm:text-base px-2">
+          Dedicated pastry professional committed to culinary excellence
+        </p>
 
-          <div className="grid lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
-            {/* Image */}
-            <div className="relative group">
-              <div className="absolute -inset-4 bg-gradient-to-br from-primary/20 via-transparent to-accent/20 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-              <div className="relative overflow-hidden rounded-xl md:rounded-2xl shadow-card">
-                <img
-                  src={ritzAnnouncement}
-                  alt="Vamsi Krishna at The Ritz-Carlton Charlotte - Lead Cook Announcement"
-                  className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent" />
-                <div className="absolute bottom-4 md:bottom-6 left-4 md:left-6 right-4 md:right-6">
-                  <span className="inline-block px-3 md:px-4 py-1.5 md:py-2 bg-card/90 backdrop-blur-sm rounded-lg text-xs md:text-sm font-medium text-foreground">
-                    Lead Cook - Culinary Banquets
-                  </span>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
+          {/* Professional Summary */}
+          <Card className="shadow-elegant hover:shadow-glow transition-smooth gradient-card border-none">
+            <CardContent className="pt-4 sm:pt-6 px-4 sm:px-6">
+              <div className="flex items-start gap-3 sm:gap-4">
+                <div className="p-2 sm:p-3 gradient-hero rounded-lg flex-shrink-0">
+                  <Award className="w-5 h-5 sm:w-6 sm:h-6 text-primary-foreground" />
+                </div>
+                <div>
+                  <h3 className="text-lg sm:text-xl md:text-2xl font-semibold mb-2 sm:mb-3 text-foreground">Professional Summary</h3>
+                  <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
+                    Luxury pastry professional with Ritz-Carlton culinary experience. Skilled in chocolate work, 
+                    plated desserts, bakery operations, and Gold Standard quality. Strong team collaborator and 
+                    Pastry Learning Coach dedicated to excellence in every creation.
+                  </p>
                 </div>
               </div>
-            </div>
+            </CardContent>
+          </Card>
 
-            {/* Content */}
-            <div className="space-y-4 md:space-y-6">
-              <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed">
-                My career has been a journey of growth and dedication. After graduating from 
-                <span className="text-foreground font-medium"> STEI Institute in Singapore</span>, 
-                I began my career as an internship trainer at Novotel Hotel in Goa, India.
-              </p>
-
-              <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed">
-                My big break came when I joined 
-                <span className="text-foreground font-medium"> Ritz-Carlton Charlotte as a J1 intern</span>. 
-                My strong ability to learn and adapt quickly allowed me to transition into a cook role. 
-                Over time, I recognized the need to step up into a leadership position.
-              </p>
-
-              <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed">
-                I took on responsibilities such as ordering, creating prep lists, attending BEO meetings, 
-                and executing multiple events. My exceptional performance proved I had the skills to manage 
-                the banquet culinary department as a 
-                <span className="text-foreground font-medium"> Lead Cook</span>.
-              </p>
-
-              {/* Stats */}
-              <div className="grid grid-cols-3 gap-3 md:gap-6 pt-6 md:pt-8 border-t border-border">
-                <div className="text-center">
-                  <span className="block font-heading text-2xl sm:text-3xl md:text-4xl font-bold text-primary mb-1 md:mb-2">5+</span>
-                  <span className="font-body text-xs md:text-sm text-muted-foreground">Years Experience</span>
+          {/* Objective */}
+          <Card className="shadow-elegant hover:shadow-glow transition-smooth gradient-card border-none">
+            <CardContent className="pt-4 sm:pt-6 px-4 sm:px-6">
+              <div className="flex items-start gap-3 sm:gap-4">
+                <div className="p-2 sm:p-3 gradient-hero rounded-lg flex-shrink-0">
+                  <Target className="w-5 h-5 sm:w-6 sm:h-6 text-primary-foreground" />
                 </div>
-                <div className="text-center">
-                  <span className="block font-heading text-2xl sm:text-3xl md:text-4xl font-bold text-accent mb-1 md:mb-2">100%</span>
-                  <span className="font-body text-xs md:text-sm text-muted-foreground">Event Satisfaction</span>
-                </div>
-                <div className="text-center">
-                  <span className="block font-heading text-2xl sm:text-3xl md:text-4xl font-bold text-primary mb-1 md:mb-2">3</span>
-                  <span className="font-body text-xs md:text-sm text-muted-foreground">Countries Worked</span>
+                <div>
+                  <h3 className="text-lg sm:text-xl md:text-2xl font-semibold mb-2 sm:mb-3 text-foreground">Career Objective</h3>
+                  <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
+                    To advance my career in hotel management by leveraging strong management skills, 
+                    culinary expertise, and dedication to quality service that ensures mutual growth and 
+                    exceptional guest experiences.
+                  </p>
                 </div>
               </div>
-            </div>
-          </div>
+            </CardContent>
+          </Card>
         </div>
+
+        {/* Personal Details */}
+        <Card className="mt-6 sm:mt-8 shadow-elegant gradient-card border-none">
+          <CardContent className="pt-4 sm:pt-6 px-4 sm:px-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+              <div>
+                <h4 className="font-semibold text-foreground mb-2 text-sm sm:text-base">Personal Information</h4>
+                <div className="space-y-1 sm:space-y-2 text-muted-foreground text-sm sm:text-base">
+                  <p><span className="font-medium text-foreground">Date of Birth:</span> May 12, 2001</p>
+                  <p><span className="font-medium text-foreground">Father's Name:</span> Esunathi Sathaiah</p>
+                </div>
+              </div>
+              <div>
+                <h4 className="font-semibold text-foreground mb-2 text-sm sm:text-base">Languages</h4>
+                <div className="flex flex-wrap gap-2">
+                  {["Telugu", "Hindi", "English"].map((lang) => (
+                    <span key={lang} className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
+                      {lang}
+                    </span>
+                  ))}
+                </div>
+                <h4 className="font-semibold text-foreground mt-3 sm:mt-4 mb-2 text-sm sm:text-base">Hobbies</h4>
+                <div className="flex flex-wrap gap-2">
+                  {["Cooking", "Gardening"].map((hobby) => (
+                    <span key={hobby} className="px-3 py-1.5 sm:px-4 sm:py-2 bg-accent/10 text-accent rounded-full text-xs sm:text-sm font-medium">
+                      {hobby}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
       </div>
     </section>
   );
