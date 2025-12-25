@@ -4,40 +4,65 @@ import { Briefcase, Calendar } from "lucide-react";
 
 const experiences = [
   {
-    title: "Cook 2 – Pastry",
+    title: "Banquet Lead Cook",
     company: "The Ritz-Carlton, Charlotte",
     location: "Charlotte, NC, USA",
-    period: "August 2024 – Present",
+    period: "March 2025 – Present",
     responsibilities: [
-      "Pastry production across all outlets",
-      "Chocolate fork & advanced chocolate work",
-      "Pastry Learning Coach",
-      "Banquet & restaurant dessert production"
+      "Lead kitchen operations for large-scale banquet events",
+      "Coordinate and supervise banquet kitchen team",
+      "Ensure consistent food quality and presentation standards",
+      "Execute high-volume event service with precision",
+      "Maintain luxury hospitality Gold Standards"
     ],
     highlight: true
   },
   {
-    title: "J1 Cook 3 – Pastry",
+    title: "Banquet Cook 2",
     company: "The Ritz-Carlton, Charlotte",
     location: "Charlotte, NC, USA",
-    period: "April 2023 – April 2024",
+    period: "2024 – 2025",
     responsibilities: [
-      "Breakfast & banquet pastry production",
-      "Recipe execution & plating standards",
-      "Workstation efficiency",
-      "Basic chocolate decoration work"
+      "Prepared high-quality dishes for banquet events",
+      "Maintained mise en place for efficient service",
+      "Collaborated with team members during peak service",
+      "Ensured food safety and sanitation standards"
     ]
   },
   {
-    title: "Industrial Trainee",
-    company: "The Leela Palace",
-    location: "Gandhi Nagar, Hyderabad",
-    period: "May 2022 – September 2022",
+    title: "Culinary J1 Cook 3",
+    company: "The Ritz-Carlton, Charlotte",
+    location: "Charlotte, NC, USA",
+    period: "2023 – 2024",
     responsibilities: [
-      "Pastry & bakery training",
-      "Sanitation & workstation setup",
-      "Basic bakery & dessert production",
-      "4 months comprehensive industrial training"
+      "Station management and food preparation",
+      "Recipe execution following Ritz-Carlton standards",
+      "Kitchen organization and inventory management",
+      "Teamwork in fast-paced culinary environment"
+    ]
+  },
+  {
+    title: "Trainee",
+    company: "Wink Group of Hotels",
+    location: "Singapore",
+    period: "2021 – 2022",
+    responsibilities: [
+      "Culinary training in hotel operations",
+      "Kitchen fundamentals and food preparation",
+      "Customer service in hospitality setting",
+      "International culinary exposure"
+    ]
+  },
+  {
+    title: "Internship Trainer",
+    company: "Novotel, South Cavelosim",
+    location: "Goa, India",
+    period: "2019 – 2020",
+    responsibilities: [
+      "Assisted in kitchen training programs",
+      "Food preparation and basic culinary skills",
+      "Learned hotel kitchen operations",
+      "Foundation in hospitality industry"
     ]
   }
 ];

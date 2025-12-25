@@ -3,27 +3,35 @@ import { GraduationCap, BookOpen } from "lucide-react";
 
 const education = [
   {
-    degree: "BHMCT - Bachelor's Degree in Hotel Management",
-    institution: "Sun Institute of Hotel Management & Catering Technology",
-    location: "Ram Nagar, Musheerabad, Hyderabad",
-    year: "2019 – 2022",
-    grade: "90%",
+    degree: "Advanced Diploma in Hospitality Management",
+    institution: "STEI Institute",
+    location: "Singapore",
+    year: "2021 – 2022",
+    grade: "Distinction",
+    type: "Diploma"
+  },
+  {
+    degree: "B.Sc Catering Science & Hotel Management",
+    institution: "Chennai's Amirtha International Institute of Hotel Management",
+    location: "Chennai, India",
+    year: "2017 – 2020",
+    grade: "First Class",
     type: "Bachelor's Degree"
   },
   {
     degree: "Intermediate (MPC)",
     institution: "Narayana Junior College",
-    location: "Hyderabad",
-    year: "2017 – 2019",
-    grade: "83%",
+    location: "India",
+    year: "2015 – 2017",
+    grade: "Pass",
     type: "Intermediate"
   },
   {
     degree: "SSC",
-    institution: "Ravindra Bharathi School",
-    location: "Hyderabad",
-    year: "2016 – 2017",
-    grade: "92%",
+    institution: "Viswam High School",
+    location: "India",
+    year: "2014 – 2015",
+    grade: "80%",
     type: "Secondary School"
   }
 ];

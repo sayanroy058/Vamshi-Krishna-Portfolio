@@ -10,7 +10,7 @@ const Contact = () => {
           Get In Touch
         </h2>
         <p className="text-center text-muted-foreground mb-8 sm:mb-10 md:mb-12 max-w-2xl mx-auto text-sm sm:text-base px-2">
-          Let's connect and discuss opportunities for culinary excellence
+          Let's connect and discuss opportunities for culinary collaboration
         </p>
 
         <Card className="shadow-elegant gradient-card border-none">
@@ -21,31 +21,46 @@ const Contact = () => {
                 <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-foreground mb-3 sm:mb-4">Contact Information</h3>
                 
                 <a 
-                  href="mailto:malli1252001@gmail.com"
+                  href="mailto:vamsikrishnakarnam1221@gmail.com"
                   className="flex items-start gap-2 sm:gap-3 md:gap-4 p-3 sm:p-4 bg-primary/10 rounded-lg hover:bg-primary/20 transition-smooth group"
                 >
                   <div className="p-1.5 sm:p-2 gradient-hero rounded-lg flex-shrink-0">
                     <Mail className="w-4 h-4 sm:w-5 sm:h-5 text-primary-foreground" />
                   </div>
                   <div className="min-w-0">
-                    <p className="font-medium text-foreground text-sm sm:text-base">Email</p>
+                    <p className="font-medium text-foreground text-sm sm:text-base">Personal Email</p>
                     <p className="text-muted-foreground group-hover:text-primary transition-smooth text-xs sm:text-sm break-all">
-                      malli1252001@gmail.com
+                      vamsikrishnakarnam1221@gmail.com
                     </p>
                   </div>
                 </a>
 
                 <a 
-                  href="tel:980-433-8960"
+                  href="mailto:vamsi.karnam@ritzcarlton.com"
+                  className="flex items-start gap-2 sm:gap-3 md:gap-4 p-3 sm:p-4 bg-primary/10 rounded-lg hover:bg-primary/20 transition-smooth group"
+                >
+                  <div className="p-1.5 sm:p-2 gradient-hero rounded-lg flex-shrink-0">
+                    <Mail className="w-4 h-4 sm:w-5 sm:h-5 text-primary-foreground" />
+                  </div>
+                  <div className="min-w-0">
+                    <p className="font-medium text-foreground text-sm sm:text-base">Work Email</p>
+                    <p className="text-muted-foreground group-hover:text-primary transition-smooth text-xs sm:text-sm break-all">
+                      vamsi.karnam@ritzcarlton.com
+                    </p>
+                  </div>
+                </a>
+
+                <a 
+                  href="tel:3322586532"
                   className="flex items-start gap-2 sm:gap-3 md:gap-4 p-3 sm:p-4 bg-accent/10 rounded-lg hover:bg-accent/20 transition-smooth group"
                 >
                   <div className="p-1.5 sm:p-2 bg-accent/30 rounded-lg flex-shrink-0">
                     <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-accent" />
                   </div>
                   <div>
-                    <p className="font-medium text-foreground text-sm sm:text-base">Phone</p>
+                    <p className="font-medium text-foreground text-sm sm:text-base">Mobile</p>
                     <p className="text-muted-foreground group-hover:text-accent transition-smooth text-xs sm:text-sm">
-                      980-433-8960
+                      332-258-6532
                     </p>
                   </div>
                 </a>
@@ -65,10 +80,11 @@ const Contact = () => {
               <div className="flex flex-col justify-center">
                 <div className="bg-primary/5 p-4 sm:p-5 md:p-6 rounded-lg border border-primary/10">
                   <h3 className="text-base sm:text-lg md:text-xl font-semibold text-foreground mb-2 sm:mb-3">
-                    Looking for a Talented Pastry Professional?
+                    Looking for a Skilled Banquet Lead Cook?
                   </h3>
                   <p className="text-xs sm:text-sm md:text-base text-muted-foreground mb-4 sm:mb-5 md:mb-6 leading-relaxed">
-                    I'm passionate about creating exceptional desserts and maintaining the highest standards of culinary excellence. Let's discuss how I can contribute to your team.
+                    I'm passionate about delivering exceptional banquet service and maintaining the highest standards 
+                    of luxury hospitality. Let's discuss how I can contribute to your culinary team.
                   </p>
                   <div className="space-y-2 sm:space-y-3">
                     <Button 
@@ -76,7 +92,7 @@ const Contact = () => {
                       size="lg"
                       asChild
                     >
-                      <a href="mailto:malli1252001@gmail.com">
+                      <a href="mailto:vamsikrishnakarnam1221@gmail.com">
                         <Mail className="w-3 h-3 sm:w-4 sm:h-4 mr-2" />
                         Send Email
                       </a>

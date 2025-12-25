@@ -3,16 +3,14 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { useIsMobile } from "@/hooks/use-mobile";
 
 const amenityImages = [
-  { src: "/Room amenities/WhatsApp Image 2025-11-10 at 1.14.41 PM (1).jpeg", alt: "Room amenity 1" },
-  { src: "/Room amenities/WhatsApp Image 2025-11-10 at 1.14.41 PM.jpeg", alt: "Room amenity 2" },
-  { src: "/Room amenities/WhatsApp Image 2025-11-10 at 1.14.42 PM (1).jpeg", alt: "Room amenity 3" },
-  { src: "/Room amenities/WhatsApp Image 2025-11-10 at 1.14.42 PM (2).jpeg", alt: "Room amenity 4" },
-  { src: "/Room amenities/WhatsApp Image 2025-11-10 at 1.14.42 PM.jpeg", alt: "Room amenity 5" },
-  { src: "/Room amenities/WhatsApp Image 2025-11-10 at 1.14.43 PM (1).jpeg", alt: "Room amenity 6" },
-  { src: "/Room amenities/WhatsApp Image 2025-11-10 at 1.14.43 PM.jpeg", alt: "Room amenity 7" },
-  { src: "/Room amenities/WhatsApp Image 2025-11-10 at 1.14.44 PM (1).jpeg", alt: "Room amenity 8" },
-  { src: "/Room amenities/WhatsApp Image 2025-11-10 at 1.14.44 PM.jpeg", alt: "Room amenity 9" },
-  { src: "/Room amenities/WhatsApp Image 2025-11-10 at 1.14.45 PM (1).jpeg", alt: "Room amenity 10" },
+  { src: "/Room amenities/WhatsApp Image 2025-12-25 at 6.49.02 PM.jpeg", alt: "Room amenity 1" },
+  { src: "/Room amenities/WhatsApp Image 2025-12-25 at 6.49.27 PM (1).jpeg", alt: "Room amenity 2" },
+  { src: "/Room amenities/WhatsApp Image 2025-12-25 at 6.49.27 PM.jpeg", alt: "Room amenity 3" },
+  { src: "/Room amenities/WhatsApp Image 2025-12-25 at 6.49.28 PM (1).jpeg", alt: "Room amenity 4" },
+  { src: "/Room amenities/WhatsApp Image 2025-12-25 at 6.49.28 PM (2).jpeg", alt: "Room amenity 5" },
+  { src: "/Room amenities/WhatsApp Image 2025-12-25 at 6.49.28 PM.jpeg", alt: "Room amenity 6" },
+  { src: "/Room amenities/WhatsApp Image 2025-12-25 at 6.49.29 PM.jpeg", alt: "Room amenity 7" },
+];
   { src: "/Room amenities/WhatsApp Image 2025-11-10 at 1.14.45 PM.jpeg", alt: "Room amenity 11" },
   { src: "/Room amenities/WhatsApp Image 2025-11-10 at 1.14.46 PM.jpeg", alt: "Room amenity 12" },
 ];

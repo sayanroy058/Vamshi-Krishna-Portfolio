@@ -3,8 +3,11 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { useIsMobile } from "@/hooks/use-mobile";
 
 const awardImages = [
-  { src: "/Awards/WhatsApp Image 2025-11-10 at 1.15.30 PM.jpeg", alt: "Award certificate 1" },
-  { src: "/Awards/WhatsApp Image 2025-11-10 at 1.15.31 PM.jpeg", alt: "Award certificate 2" },
+  { src: "/Awards/WhatsApp Image 2025-12-23 at 6.40.21 PM (1).jpeg", alt: "Award certificate 1" },
+  { src: "/Awards/WhatsApp Image 2025-12-23 at 6.40.21 PM.jpeg", alt: "Award certificate 2" },
+  { src: "/Certificates/WhatsApp Image 2025-12-23 at 6.40.20 PM (1).jpeg", alt: "Certificate 1" },
+  { src: "/Certificates/WhatsApp Image 2025-12-23 at 6.40.20 PM.jpeg", alt: "Certificate 2" },
+  { src: "/Certificates/WhatsApp Image 2025-12-23 at 6.40.21 PM.jpeg", alt: "Certificate 3" },
 ];
 
 const AwardsGallery = () => {

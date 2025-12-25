@@ -3,24 +3,25 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { useIsMobile } from "@/hooks/use-mobile";
 
 const dessertImages = [
-  { src: "/Plated Desserts/WhatsApp Image 2025-11-10 at 6.33.28 PM.jpeg", alt: "Plated dessert 1" },
-  { src: "/Plated Desserts/WhatsApp Image 2025-11-10 at 6.33.29 PM (1).jpeg", alt: "Plated dessert 2" },
-  { src: "/Plated Desserts/WhatsApp Image 2025-11-10 at 6.33.29 PM (2).jpeg", alt: "Plated dessert 3" },
-  { src: "/Plated Desserts/WhatsApp Image 2025-11-10 at 6.33.29 PM.jpeg", alt: "Plated dessert 4" },
-  { src: "/Plated Desserts/WhatsApp Image 2025-11-10 at 6.33.30 PM.jpeg", alt: "Plated dessert 5" },
+  { src: "/cheese and charcuterie boards/WhatsApp Image 2025-12-25 at 6.49.29 PM.jpeg", alt: "Cheese and charcuterie board 1" },
+  { src: "/cheese and charcuterie boards/WhatsApp Image 2025-12-25 at 6.49.30 PM (1).jpeg", alt: "Cheese and charcuterie board 2" },
+  { src: "/cheese and charcuterie boards/WhatsApp Image 2025-12-25 at 6.49.30 PM.jpeg", alt: "Cheese and charcuterie board 3" },
+  { src: "/cheese and charcuterie boards/WhatsApp Image 2025-12-25 at 6.49.31 PM (1).jpeg", alt: "Cheese and charcuterie board 4" },
+  { src: "/cheese and charcuterie boards/WhatsApp Image 2025-12-25 at 6.49.31 PM (2).jpeg", alt: "Cheese and charcuterie board 5" },
+  { src: "/cheese and charcuterie boards/WhatsApp Image 2025-12-25 at 6.49.31 PM.jpeg", alt: "Cheese and charcuterie board 6" },
 ];
 
 const PlatedDesserts = () => {
   const isMobile = useIsMobile();
 
   return (
-    <section className="py-12 sm:py-16 md:py-20 px-4 bg-background" id="plated-desserts">
+    <section className="py-12 sm:py-16 md:py-20 px-4 bg-background" id="cheese-boards">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-3 sm:mb-4 text-foreground">
-          Plated Desserts
+          Cheese & Charcuterie Boards
         </h2>
         <p className="text-center text-muted-foreground mb-8 sm:mb-10 md:mb-12 max-w-2xl mx-auto text-sm sm:text-base px-2">
-          Exquisite plated dessert presentations combining artistry and flavor
+          Expertly curated artisan cheese and charcuterie presentations
         </p>
 
         {isMobile ? (

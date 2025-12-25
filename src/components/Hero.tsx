@@ -10,7 +10,8 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${heroBg})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/90 via-accent/85 to-primary/90" />
+        {/* Gradient Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/95 via-accent/90 to-primary/95" />
       </div>
 
       {/* Content */}
@@ -18,34 +19,34 @@ const Hero = () => {
         <div className="animate-fade-in">
           {/* Profile Photo */}
           <div className="flex justify-center mb-6 sm:mb-8">
-            <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-[#FFD700] shadow-2xl ring-4 ring-[#FFD700]/30">
+            <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-accent shadow-2xl ring-4 ring-accent/30">
               <img 
                 src="/profile-image.jpeg" 
-                alt="Mallikarjuna Esunathi"
+                alt="Vamsi Krishna Karnam"
                 className="w-full h-full object-cover object-top scale-110"
               />
             </div>
           </div>
           
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-3 sm:mb-4 tracking-tight px-2 bg-gradient-to-r from-[#FFD700] via-[#FFA500] to-[#FFD700] bg-clip-text text-transparent">
-            Mallikarjuna Esunathi
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-3 sm:mb-4 tracking-tight px-2 bg-gradient-to-r from-white via-accent-foreground to-white bg-clip-text text-transparent drop-shadow-lg">
+            Vamsi Krishna Karnam
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-playfair mb-4 sm:mb-6 text-primary-foreground/90 px-2">
-            Pastry Cook 2 | The Ritz-Carlton, Charlotte
+            Banquet Lead Cook | The Ritz-Carlton, Charlotte
           </p>
           <p className="text-sm sm:text-base md:text-lg lg:text-xl max-w-2xl mx-auto mb-6 sm:mb-8 text-primary-foreground/80 px-4">
-            Luxury pastry professional specializing in chocolate work, plated desserts, and Gold Standard culinary excellence
+            Banquet Lead Cook with expertise in large-scale service, precision execution, and luxury hospitality standards
           </p>
           
           {/* Contact Info */}
           <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4 md:gap-6 mb-6 sm:mb-8 text-primary-foreground/90 px-4">
-            <a href="mailto:malli1252001@gmail.com" className="flex items-center justify-center gap-2 hover:text-primary-foreground transition-smooth">
+            <a href="mailto:vamsikrishnakarnam1221@gmail.com" className="flex items-center justify-center gap-2 hover:text-primary-foreground transition-smooth">
               <Mail className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
-              <span className="text-xs sm:text-sm md:text-base">malli1252001@gmail.com</span>
+              <span className="text-xs sm:text-sm md:text-base">vamsikrishnakarnam1221@gmail.com</span>
             </a>
-            <a href="tel:980-433-8960" className="flex items-center justify-center gap-2 hover:text-primary-foreground transition-smooth">
+            <a href="tel:3322586532" className="flex items-center justify-center gap-2 hover:text-primary-foreground transition-smooth">
               <Phone className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
-              <span className="text-xs sm:text-sm md:text-base">980-433-8960</span>
+              <span className="text-xs sm:text-sm md:text-base">332-258-6532</span>
             </a>
             <div className="flex items-center justify-center gap-2">
               <MapPin className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />

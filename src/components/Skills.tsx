@@ -2,21 +2,25 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ChefHat, Users, Zap, Heart } from "lucide-react";
 
 const technicalSkills = [
-  "Plated Desserts",
-  "Pastry Production",
-  "Chocolate Fork Technique",
-  "Chocolate Work",
-  "Bakery Skills",
+  "Banquet Operations",
+  "Large-Scale Service",
+  "Team Coordination",
+  "Food Quality Control",
+  "Kitchen Management",
+  "Recipe Execution",
   "Mise en Place",
-  "Sanitation",
-  "Inventory Standards"
+  "Food Safety & Sanitation",
+  "Inventory Management",
+  "Event Planning",
+  "High-Volume Production",
+  "Luxury Hospitality Standards"
 ];
 
 const softSkills = [
-  { name: "Team Collaboration", icon: Users },
-  { name: "Good Leadership", icon: ChefHat },
-  { name: "Hard Working", icon: Zap },
-  { name: "Disciplined", icon: Heart }
+  { name: "Team Leadership", icon: Users },
+  { name: "Strong Work Ethic", icon: Zap },
+  { name: "Disciplined", icon: Heart },
+  { name: "Problem Solving", icon: ChefHat }
 ];
 
 const Skills = () => {
@@ -27,7 +31,7 @@ const Skills = () => {
           Skills & Expertise
         </h2>
         <p className="text-center text-muted-foreground mb-8 sm:mb-10 md:mb-12 max-w-2xl mx-auto text-sm sm:text-base px-2">
-          A comprehensive blend of technical mastery and interpersonal excellence
+          A comprehensive blend of culinary excellence and leadership capabilities
         </p>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 md:gap-8">

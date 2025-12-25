@@ -3,24 +3,26 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { useIsMobile } from "@/hooks/use-mobile";
 
 const chocolateImages = [
-  { src: "/Chocolate works/WhatsApp Image 2025-11-10 at 1.14.53 PM (1).jpeg", alt: "Chocolate work 1" },
-  { src: "/Chocolate works/WhatsApp Image 2025-11-10 at 1.14.53 PM.jpeg", alt: "Chocolate work 2" },
-  { src: "/Chocolate works/WhatsApp Image 2025-11-10 at 1.14.54 PM (1).jpeg", alt: "Chocolate work 3" },
-  { src: "/Chocolate works/WhatsApp Image 2025-11-10 at 1.14.54 PM.jpeg", alt: "Chocolate work 4" },
-  { src: "/Wedding cakes/WhatsApp Image 2025-11-10 at 1.15.30 PM.jpeg", alt: "Chocolate work 5" },
+  { src: "/Plated salads/WhatsApp Image 2025-12-25 at 6.49.32 PM (1).jpeg", alt: "Plated salad 1" },
+  { src: "/Plated salads/WhatsApp Image 2025-12-25 at 6.49.32 PM.jpeg", alt: "Plated salad 2" },
+  { src: "/Plated salads/WhatsApp Image 2025-12-25 at 6.49.33 PM (1).jpeg", alt: "Plated salad 3" },
+  { src: "/Plated salads/WhatsApp Image 2025-12-25 at 6.49.33 PM (2).jpeg", alt: "Plated salad 4" },
+  { src: "/Plated salads/WhatsApp Image 2025-12-25 at 6.49.33 PM.jpeg", alt: "Plated salad 5" },
+  { src: "/Plated salads/WhatsApp Image 2025-12-25 at 6.49.34 PM (1).jpeg", alt: "Plated salad 6" },
+  { src: "/Plated salads/WhatsApp Image 2025-12-25 at 6.49.34 PM.jpeg", alt: "Plated salad 7" },
 ];
 
 const ChocolateWorks = () => {
   const isMobile = useIsMobile();
 
   return (
-    <section className="py-12 sm:py-16 md:py-20 px-4 bg-accent/5" id="chocolate-works">
+    <section className="py-12 sm:py-16 md:py-20 px-4 bg-accent/5" id="plated-salads">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-3 sm:mb-4 text-foreground">
-          Chocolate Works
+          Plated Salads
         </h2>
         <p className="text-center text-muted-foreground mb-8 sm:mb-10 md:mb-12 max-w-2xl mx-auto text-sm sm:text-base px-2">
-          Artisan chocolate creations showcasing precision and craftsmanship
+          Fresh and artfully presented salad creations for banquet service
         </p>
 
         {isMobile ? (
