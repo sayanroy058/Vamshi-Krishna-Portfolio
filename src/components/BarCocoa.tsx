@@ -25,7 +25,7 @@ const BarCocoa = () => {
     <section className="py-12 sm:py-16 md:py-20 px-4 bg-accent/5" id="plated-entrees">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-3 sm:mb-4 text-foreground">
-          Playes Entrées
+          Plated Entrées
         </h2>
         <p className="text-center text-muted-foreground mb-8 sm:mb-10 md:mb-12 max-w-2xl mx-auto text-sm sm:text-base px-2">
           Beautifully crafted main course presentations for banquet events

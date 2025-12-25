@@ -64,7 +64,7 @@ const About = () => {
               <div className="space-y-3 text-muted-foreground text-sm">
                 <div className="flex items-center gap-2 p-2 bg-background/50 rounded-lg">
                   <span className="font-semibold text-foreground">DOB:</span>
-                  <span>January 8, 2000</span>
+                  <span>August 1, 2000</span>
                 </div>
               </div>
             </CardContent>

@@ -21,7 +21,7 @@ const Hero = () => {
           <div className="flex justify-center mb-6 sm:mb-8">
             <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-accent shadow-2xl ring-4 ring-accent/30">
               <img 
-                src="/profile-image.jpeg" 
+                src="/profile-new.jpeg" 
                 alt="Vamsi Krishna Karnam"
                 className="w-full h-full object-cover object-top scale-110"
               />
