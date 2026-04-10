@@ -2,18 +2,24 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ChefHat, Users, Zap, Heart } from "lucide-react";
 
 const technicalSkills = [
-  "Banquet Operations",
-  "Large-Scale Service",
-  "Team Coordination",
-  "Food Quality Control",
-  "Kitchen Management",
-  "Recipe Execution",
-  "Mise en Place",
-  "Food Safety & Sanitation",
-  "Inventory Management",
-  "Event Planning",
-  "High-Volume Production",
-  "Luxury Hospitality Standards"
+  "Fine Dining Food Preparation",
+  "Menu Development & Planning",
+  "Plating & Presentation",
+  "Sauce Preparation & Flavor Balancing",
+  "Kitchen Operations & Workflow",
+  "High-Volume Service Management",
+  "Food Cost Control & Inventory",
+  "Team Training & Mentoring",
+  "Shift Management & Line Coordination",
+  "Vendor Coordination & Sourcing",
+  "Food Safety & Sanitation Standards",
+  "HACCP Compliance",
+  "Quality Control & Consistency",
+  "Banquet & Catering Service",
+  "Guest Satisfaction & Collaboration",
+  "Time Management in Fast-Paced Kitchens",
+  "Luxury Hospitality Standards",
+  "Recipe Execution & Mise en Place"
 ];
 
 const softSkills = [

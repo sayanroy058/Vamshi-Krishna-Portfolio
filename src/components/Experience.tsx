@@ -4,18 +4,34 @@ import { Briefcase, Calendar } from "lucide-react";
 
 const experiences = [
   {
+    title: "Assistant Sous Chef",
+    company: "The Ritz-Carlton, Cleveland",
+    location: "Cleveland, Ohio, USA",
+    period: "April 2026 – Present",
+    responsibilities: [
+      "Lead and supervise kitchen team members",
+      "Manage kitchen workflow and optimize operations",
+      "Develop and execute seasonal menus with culinary expertise",
+      "Coordinate vendor sourcing and inventory management",
+      "Ensure HACCP compliance and food safety standards",
+      "Train and mentor kitchen staff for skill development",
+      "Oversee food cost control and quality consistency",
+      "Support catering and banquet service operations"
+    ],
+    highlight: true
+  },
+  {
     title: "Banquet Lead Cook",
     company: "The Ritz-Carlton, Charlotte",
     location: "Charlotte, NC, USA",
-    period: "March 2025 – Present",
+    period: "March 2025 – April 2026",
     responsibilities: [
       "Lead kitchen operations for large-scale banquet events",
       "Coordinate and supervise banquet kitchen team",
       "Ensure consistent food quality and presentation standards",
       "Execute high-volume event service with precision",
       "Maintain luxury hospitality Gold Standards"
-    ],
-    highlight: true
+    ]
   },
   {
     title: "Banquet Cook 2",
