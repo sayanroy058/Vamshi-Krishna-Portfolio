@@ -32,7 +32,7 @@ const Hero = () => {
             Vamsi Krishna Karnam
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-playfair mb-4 sm:mb-6 text-primary-foreground/90 px-2">
-            Assistant Sous Chef | The Ritz-Carlton, Charlotte
+            Assistant Sous Chef | The Ritz-Carlton, Cleveland
           </p>
           <p className="text-sm sm:text-base md:text-lg lg:text-xl max-w-2xl mx-auto mb-6 sm:mb-8 text-primary-foreground/80 px-4">
             Assistant Sous Chef with expertise in large-scale service, precision execution, and luxury hospitality standards

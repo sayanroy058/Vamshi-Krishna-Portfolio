@@ -7,7 +7,7 @@ const experiences = [
     title: "Assistant Sous Chef",
     company: "The Ritz-Carlton, Cleveland",
     location: "Cleveland, Ohio, USA",
-    period: "April 2026 – Present",
+    period: "March 2026 – Present",
     responsibilities: [
       "Lead and supervise kitchen team members",
       "Manage kitchen workflow and optimize operations",
@@ -24,7 +24,7 @@ const experiences = [
     title: "Banquet Lead Cook",
     company: "The Ritz-Carlton, Charlotte",
     location: "Charlotte, NC, USA",
-    period: "March 2025 – April 2026",
+    period: "March 2025 – March 2026",
     responsibilities: [
       "Lead kitchen operations for large-scale banquet events",
       "Coordinate and supervise banquet kitchen team",
